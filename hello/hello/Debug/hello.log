@@ -1,0 +1,19 @@
+﻿Build started 22-Mar-15 9:16:11 PM.
+     1>Project "C:\Users\darkdanito\Desktop\PewPewBeam\hello\hello\hello.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Java\jdk1.8.0_40\include" /I"C:\Program Files (x86)\Java\jdk1.8.0_40\include\win32" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D HELLO_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt HelloJNICpp.c
+         HelloJNICpp.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Java\jdk1.8.0_40\include" /I"C:\Program Files (x86)\Java\jdk1.8.0_40\include\win32" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D HELLO_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt HelloJNICppImpl.cpp
+         HelloJNICppImpl.cpp
+     1>c:\users\darkdanito\desktop\pewpewbeam\hello\hello\hellojnicppimpl.cpp(140): warning C4101: 'hIcon' : unreferenced local variable
+     1>c:\users\darkdanito\desktop\pewpewbeam\hello\hello\hellojnicppimpl.cpp(140): warning C4101: 'hIconSm' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\darkdanito\Desktop\PewPewBeam\hello\Debug\hello.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Java\jdk1.8.0_31\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\darkdanito\Desktop\PewPewBeam\hello\Debug\hello.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\darkdanito\Desktop\PewPewBeam\hello\Debug\hello.lib" /MACHINE:X86 /DLL Debug\HelloJNICpp.obj
+         Debug\HelloJNICppImpl.obj
+            Creating library C:\Users\darkdanito\Desktop\PewPewBeam\hello\Debug\hello.lib and object C:\Users\darkdanito\Desktop\PewPewBeam\hello\Debug\hello.exp
+         hello.vcxproj -> C:\Users\darkdanito\Desktop\PewPewBeam\hello\Debug\hello.dll
+     1>Done Building Project "C:\Users\darkdanito\Desktop\PewPewBeam\hello\hello\hello.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.71
